@@ -41,7 +41,7 @@ jobs:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       with:
         upload_url: ${{ steps.create_release.outputs.upload_url }}
-        asset_path: ./target/Dungeon_lockdown-1.0-
+        asset_path: ./target/Dungeon_lockdown-1.0-jar-with-dependencies.jar
         asset_name: Dungeon_lockdown.jar
         asset_content_type: application/zip
 
